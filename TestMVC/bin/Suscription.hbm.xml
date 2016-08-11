@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="TestMVC.Models.SuscriptionModel, TestMVC" table="suscription">
+    <id name="Guid">
+      <generator class="guid"/>
+    </id>
+    <property name="Email" column="email"
+              type="String"></property>
+    <property name="Date" column="fecha"
+              type="DateTime"></property>
+
+  </class>
+</hibernate-mapping>
